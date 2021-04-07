@@ -7,7 +7,7 @@ $Font-family:'Raleway', sans-serif;
 body{
     background-image: url(/images/bg-mobile.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100vw 100vh;
     background-attachment: fixed;
     background-color: nth($Neutral-colors,4);
     font-size: $Body-font-size;
@@ -110,10 +110,30 @@ strong{font-weight: nth($Font-weight,2);}
       body{
           background-image: url(/images/bg-desktop.png);
           background-repeat: no-repeat;
-          background-size: cover;
+          background-position: bottom;
+          background-size: 100vw 50vh;
           background-attachment: fixed;
       }
     .Fylo{
+        .Fylo__storage{
+            width: 345px;
+            margin: 4rem 0rem 0rem 1rem;
+            height: 100px;
+            .Fylo__storage-space-left{
+                left: 202px;
+                top: -159px;
+                .triangle{   
+                    position: absolute;
+                    width: 0;
+                    height: 0;
+                    border-top: 30px solid white;
+                    border-left: 30px solid transparent;
+                    right: 0px;
+                    top: 58px;
+                }
+            }
+        }
+        margin-top: 31vh;
         flex-direction: row;
         justify-content: center;
     }   
