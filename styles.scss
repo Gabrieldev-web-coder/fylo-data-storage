@@ -115,6 +115,8 @@ strong{font-weight: nth($Font-weight,2);}
           background-attachment: fixed;
       }
     .Fylo{
+
+        .Fylo__heading{padding: 2.5rem 3.5rem 2.5rem 2.5rem;}
         .Fylo__storage{
             width: 345px;
             margin: 4rem 0rem 0rem 1rem;

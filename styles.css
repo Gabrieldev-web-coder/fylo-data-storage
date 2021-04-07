@@ -150,6 +150,9 @@ strong {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .Fylo .Fylo__heading {
+    padding: 2.5rem 3.5rem 2.5rem 2.5rem;
+  }
   .Fylo .Fylo__storage {
     width: 345px;
     margin: 4rem 0rem 0rem 1rem;
